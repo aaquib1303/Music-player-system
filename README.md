@@ -32,7 +32,7 @@ Music-player-system/
 │
 ├── Songs/                  # All audio files
 │   ├── library/            # General songs
-│   ├── nasheeds/           # Islamic nasheeds
+│   ├── nasheeds/           # Popular
 │   └── ringtones/          # Ringtones
 │
 └── assets/                 # SVG icons used in UI
