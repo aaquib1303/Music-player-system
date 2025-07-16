@@ -7,33 +7,20 @@ This project mimics a Spotify-style interface with functional playlists, a playb
 
 ---
 
-## ✨ Features
+##  Features
 
-- 🎧 Play music directly from the UI
-- 📂 Three categories: Library, Nasheeds, and Ringtones
-- 🎚️ Seekbar and volume control
-- ⏯️ Play, Pause, Next, Previous buttons
-- 💾 Playlist selection updates UI
-- 🖱️ Hover effects with SVG icons
-- 📱 Fully responsive from large screens to mobile
-
----
-
-## 🚀 Getting Started
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/aaquib1303/Music-player-system.git
-````
-
-2. Open the folder in your code editor or simply double-click `index.html` to run the music player in your browser.
-
-> ✅ **Note**: No build tools or dependencies required — works offline.
+-  Play music directly from the UI
+-  Three categories: Library, Nasheeds, and Ringtones
+-  Seekbar and volume control
+-  Play, Pause, Next, Previous buttons
+-  Playlist selection updates UI
+-  Hover effects with SVG icons
+-  Fully responsive from large screens to mobile
 
 ---
 
-## 📁 File Structure
+
+##  File Structure
 
 ```
 Music-player-system/
@@ -60,16 +47,15 @@ The project is organized in a clean modular way for better readability and maint
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * **HTML5**
 * **CSS3** (Flexbox, Media Queries, Custom Utility Classes)
 * **JavaScript** (Vanilla JS DOM Manipulation)
-* **SVG Icons** for buttons
 
 ---
 
-## 📱 Responsive Design Strategy
+##  Responsive Design Strategy
 
 * Below **700px**: Album pic + song details wrap
 * Below **500px**: Playbar components stack vertically:
@@ -83,14 +69,5 @@ The project is organized in a clean modular way for better readability and maint
 ---
 
 
-## 📄 License
-
-This project is open-sourced under the [MIT License](https://opensource.org/licenses/MIT).
-
----
-
-## 🙌 Author
-
-Made with ❤️ by [Mohammed Aaquibuddin](https://github.com/aaquib1303)
 
 
