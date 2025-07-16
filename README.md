@@ -82,11 +82,6 @@ The project is organized in a clean modular way for better readability and maint
 
 ---
 
-## 🌐 Live Preview
-
-> **https://aaquib1303.github.io/Music-player-system/**
-
----
 
 ## 📄 License
 
