@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+
+</head>
+
+<body>
+    <div class="header flex">
+        <div class="logos flex items-center">
+            <img src="/assets/logo.svg" alt="" width="100">
+            <div class="home flex justify-center items-center">
+                <img src="assets/home.svg" alt="" width="25">
+            </div>
+            <div class="searchbar flex">
+                <img src="/assets/search.svg" alt="" width="25">
+                <div class="grey flex justify-center items-center"> What do you want to play?</div>
+
+            </div>
+        </div>
+        <div class="btns flex justify-center items-center">
+            <button class="btn">Sign up</button>
+            <button class="btn">Log in</button>
+        </div>
+    </div>
+    <div class="container flex">
+        <div class="left ">
+            <div class="header flex items-center">
+                <div class="lib">Your Library</div>
+                <img id="ham" class="hamburger" src="assets/plus.svg" alt="">
+            </div>
+            <div class="content flex justify-center items-center">
+                <div class="block column flex ">
+                    <div class="lib">Create your first playlist</div>
+                    <div>It's easy, we'll help you</div>
+                    <button class="btn smol-btn"> Create playlist</button>
+                </div>
+                <div class="block column flex ">
+                    <div class="lib">Let's find some podcasts to follow</div>
+                    <div>We'll keep you updated on new episodes</div>
+                    <button class="btn smol-btn"> Browse podcasts</button>
+                </div>
+            </div>
+            <div class="viewplaylist" id="playlistbar">
+
+            </div>
+            <div class="others ">
+                <div class="links">
+                    <a href="">Legal</a>
+                    <a href="">Safety & Privacy Center</a>
+                    <a href="">Privacy Policy</a>
+                    <a href="">Cookies</a>
+                </div>
+                <div class="links">
+                    <a href="">About Ads</a>
+                    <a href="">Accessibility</a>
+                </div>
+                <a href="" class="cookies">Cookies</a>
+                <button class="english flex btn smol-btn">
+                    <img src="/assets/globe.svg" width="18px" alt="">
+                    <div>English</div>
+                </button>
+            </div>
+        </div>
+        <div class="right">
+            <div class="type">
+                <div class="topper flex">
+                    <div class="title">My Library</div>
+                    <div class="showall">Show all</div>
+                </div>
+                <div class="cardContainer flex ">
+                    <div class="card" data-song="Songs/library/wedding_nasheed.mp3" data-playlist="My-Library">
+                        <div class="play">
+                            <img src="/assets/play.svg" alt="">
+                        </div>
+                        <img src="https://c.saavncdn.com/803/Wedding-Nasheed-Vocals-Only-English-2023-20231030140444-500x500.jpg"
+                            width="15%" alt="">
+                        <h2>Wedding Nasheed</h2>
+                        <p>Song by Muhammad Al Muqit</p>
+                    </div>
+                    <div class="card" data-song="Songs/library/laka-rabbi-nasheed.mp3" data-playlist="My-Library">
+                        <div class="play">
+                            <img src="/assets/play.svg" alt="">
+                        </div>
+                        <img src="https://c.saavncdn.com/251/Shukran-Laka-Rabbi-Arabic-2024-20240722191216-500x500.jpg"
+                            width="15%" alt="">
+                        <h2>Shukran Laka Rabbi</h2>
+                        <p>Song by Ahmed Bukhatir</p>
+                    </div>
+                    <div class="card" data-song="Songs/library/alfatiha.mp3" data-playlist="My-Library">
+                        <div class="play">
+                            <img src="/assets/play.svg" alt="">
+                        </div>
+                        <img src="https://imgs.search.brave.com/kMd7Gw0qoUJR_5RMwAv3pSHNETR2U-EAYu0Y21WqR1M/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA3LzEzLzA5Lzcx/LzM2MF9GXzcxMzA5/NzE3OV96TU5yRHFo/MkJGeGgwSDVqazRZ/b2w1Tnc2ZHJTY0Fl/Qy5qcGc"
+                            width="15%" alt="">
+                        <h2>Surah Fatiha</h2>
+                        <p>Recitation by Mishary Alafasy</p>
+                    </div>
+                    <div class="card" data-song="Songs/library/Rahmatun-Lil-Alameen.mp3" data-playlist="My-Library">
+                        <div class="play">
+                            <img src="/assets/play.svg" alt="">
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d0000b273e7a7f2b8cbf1741e64b06c3f" width="15%" alt="">
+                        <h2>Rahmatun Lil'Alameen</h2>
+                        <p>Song by Maher Zain</p>
+                    </div>
+                    <div class="card" data-song="Songs/library/azan1.mp3" data-playlist="My-Library">
+                        <div class="play">
+                            <img src="/assets/play.svg" alt="">
+                        </div>
+                        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZU8Gra6iBqRDfWFNSQ2jZfhM2zR283fb95hcwr8jqt7dOvmu90ivK_cTA6g35DtsEwzxTubJIbrV81sYUKndq9YA6ODtkvjpyZJZYhP2-hFo_owNV8J47sAMGIgdtFYIVzfYmwh18lrWB/w680/history+o+azan.jpg"
+                            width="15%" alt="">
+                        <h2>Azaan</h2>
+                        <p>Azaan by Mohammad Tareq</p>
+                    </div>
+                    <div class="card" data-song="Songs/library/alfurqan.mp3" data-playlist="My-Library">
+                        <div class="play">
+                            <img src="/assets/play.svg" alt="">
+                        </div>
+                        <img src="https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/de/64/09/de640992-357d-4149-a7fc-69f4d10c17ee/artwork.jpg/400x400bb.webp"
+                            width="15%" alt="">
+                        <h2>Surah Furqan</h2>
+                        <p>Recitation by Muhammad Al Luhaidan</p>
+                    </div>
+                </div>
+            </div>
+            <div class="type">
+                <div class="topper flex">
+                    <div class="title">Nasheeds</div>
+                    <div class="showall">Show all</div>
+                </div>
+                <div class="cardContainer flex ">
+                    <div class="card" data-song="Songs/nasheeds/allah_humma.mp3" data-playlist="Nasheeds">
+                        <div class="play">
+                            <img src="/assets/play.svg" alt="">
+                        </div>
+                        <img src="https://i1.sndcdn.com/artworks-glyDTm3dOUMRysAs-D25y2Q-t500x500.jpg" width="15%"
+                            alt="">
+                        <h2>Allah Humma</h2>
+                        <p>Song by Siedd</p>
+                    </div>
+                    <div class="card" data-song="Songs/nasheeds/bi_saraha.mp3" data-playlist="Nasheeds">
+                        <div class="play">
+                            <img src="/assets/play.svg" alt="">
+                        </div>
+                        <img src="https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ed/f0/05/edf005a8-4f1e-e4fc-b2e5-f8ee9222b7db/artwork.jpg/400x400bb.webp"
+                            width="15%" alt="">
+                        <h2>Bi Saraha</h2>
+                        <p>Song by Abeer Nehme</p>
+                    </div>
+                    <div class="card" data-song="Songs/nasheeds/faslon-ko-takalluf.mp3" data-playlist="Nasheeds">
+                        <div class="play">
+                            <img src="/assets/play.svg" alt="">
+                        </div>
+                        <img src="https://i1.sndcdn.com/artworks-0z7SIENRSnYzEiUt-4JuIZA-t500x500.jpg" width="15%"
+                            alt="">
+                        <h2>Faaslon Ko Takalluf</h2>
+                        <p>Song by Waheed Zafar</p>
+                    </div>
+                    <div class="card" data-song="Songs/nasheeds/jamalul_wujood.mp3" data-playlist="Nasheeds">
+                        <div class="play">
+                            <img src="/assets/play.svg" alt="">
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d0000b2730a556abd487e78b05f36c4ab" width="15%" alt="">
+                        <h2>Jamal Ul Wujood</h2>
+                        <p>Song by Muhammad Al Muqit</p>
+                    </div>
+                    <div class="card" data-song="Songs/nasheeds/mountains-of-friendship.mp3" data-playlist="Nasheeds">
+                        <div class="play">
+                            <img src="/assets/play.svg" alt="">
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e0220bea2d53f77bc99ee8986bb" width="15%" alt="">
+                        <h2>Mountains of FriendShip</h2>
+                        <p>Song by Muhammad Al Muqit</p>
+                    </div>
+                    <div class="card" data-song="Songs/nasheeds/Nasem-Al-Shawq.mp3" data-playlist="Nasheeds">
+                        <div class="play">
+                            <img src="/assets/play.svg" alt="">
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d0000b27301f3dd206fa3f8116ff05970" width="15%" alt="">
+                        <h2>Taweel Al Shawq</h2>
+                        <p>Song by Ahmed Bukhtiar</p>
+                    </div>
+                    <div class="card" data-song="Songs/nasheeds/the-way-of-the-tears.mp3" data-playlist="Nasheeds">
+                        <div class="play">
+                            <img src="/assets/play.svg" alt="">
+                        </div>
+                        <img src="https://i1.sndcdn.com/artworks-000560469846-kbnuep-t1080x1080.jpg" width="15%" alt="">
+                        <h2>The Way of Tears</h2>
+                        <p>Song by Muhammad Al Muqit</p>
+                    </div>
+                </div>
+            </div>
+            <div class="type">
+                <div class="topper flex">
+                    <div class="title">Ringtones</div>
+                    <div class="showall">Show all</div>
+                </div>
+                <div class="cardContainer flex ">
+                    <div class="card" data-song="Songs/ringtones/iphone_ringtone.mp3" data-playlist="Ringtones">
+                        <div class="play">
+                            <img src="/assets/play.svg" alt="">
+                        </div>
+                        <img src="https://dl.memuplay.com/new_market/img/com.feoktistacometza.lotyringtone.zivystudiomusic.icon.2024-03-05-10-05-25.png"
+                            width="15%" alt="">
+                        <h2>Basic</h2>
+                        <p>iPhone</p>
+                    </div>
+                    <div class="card" data-song="Songs/ringtones/one_plus_ringtone.mp3" data-playlist="Ringtones">
+                        <div class="play">
+                            <img src="/assets/play.svg" alt="">
+                        </div>
+                        <img src="https://dl.memuplay.com/new_market/img/com.feoktistacometza.lotyringtone.zivystudiomusic.icon.2024-03-05-10-05-25.png"
+                            width="15%" alt="">
+                        <h2>Basic</h2>
+                        <p>One Plus</p>
+                    </div>
+                    <div class="card" data-song="Songs/ringtones/oneplus_game_ringtone.mp3" data-playlist="Ringtones">
+                        <div class="play">
+                            <img src="/assets/play.svg" alt="">
+                        </div>
+                        <img src="https://dl.memuplay.com/new_market/img/com.feoktistacometza.lotyringtone.zivystudiomusic.icon.2024-03-05-10-05-25.png"
+                            width="15%" alt="">
+                        <h2>Gaming</h2>
+                        <p>One Plus</p>
+                    </div>
+                    <div class="card" data-song="Songs/ringtones/over_the_horizon.mp3" data-playlist="Ringtones">
+                        <div class="play">
+                            <img src="/assets/play.svg" alt="">
+                        </div>
+                        <img src="https://dl.memuplay.com/new_market/img/com.feoktistacometza.lotyringtone.zivystudiomusic.icon.2024-03-05-10-05-25.png"
+                            width="15%" alt="">
+                        <h2>Over The Horizon</h2>
+                        <p>Samsung</p>
+                    </div>
+                    <div class="card" data-song="Songs/ringtones/poco.mp3" data-playlist="Ringtones">
+                        <div class="play">
+                            <img src="/assets/play.svg" alt="">
+                        </div>
+                        <img src="https://dl.memuplay.com/new_market/img/com.feoktistacometza.lotyringtone.zivystudiomusic.icon.2024-03-05-10-05-25.png"
+                            width="15%" alt="">
+                        <h2>Basic</h2>
+                        <p>POCO</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="playbar" class="playbar">
+        <div class="songinfo flex">
+            <div class="songpic"><img
+                    src=""
+                    width="60px" alt=""></div>
+            <div class="songdet">
+                <h2></h2>
+                <p></p>
+            </div>
+        </div>
+        <div class="songmid">
+            <div class="songbuttons">
+                <img id="backbutton" src="/assets/playbar0.svg" alt="">
+                <img id="playbutton" src="/assets/playbar1.svg" alt="">
+                <img id="nextbutton" src="/assets/playbar2.svg" alt="">
+            </div>
+            <div class="seekbar">
+                <div class="seekfill"></div>
+                <div class="seekcircle"></div>
+            </div>
+            <div class="seekduration">
+                <div class="currdur">0:00</div>
+                <div class="totaldur">3:42</div>
+            </div>
+        </div>
+        <div class="songvol">
+            <img src="/assets/unmuted.svg" alt="" class="muteButton">
+            <input type="range" id="voldrag" min="0" max="1" step="0.01" value="1" />
+
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
