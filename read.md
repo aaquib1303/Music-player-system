@@ -55,19 +55,19 @@ Edit
    ```bash
    git clone https://github.com/aaquib1303/Music-player-system.git
    cd Music-player-system
-Start a local development server:
+   
+2. Start a local development server:
 
 Using Python (for Python 3):
 
-bash
-Copy
-Edit
+```bash
 python -m http.server
+```
 Or use the Live Server extension in VS Code.
 
 Open http://localhost:8000 in your browser (recommended for fetch-based playlist loading).
 
-Notes
+# Notes
 For full functionality (like dynamic file fetching using fetch()), you must run the project on a local server. Directly opening index.html may not load playlists correctly.
 
 Ensure all file paths are relative and folder structure is preserved after cloning.
