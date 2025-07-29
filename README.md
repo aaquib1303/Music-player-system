@@ -1,24 +1,16 @@
+# 🎵 Spotify Clone – Music Streaming Web App
 
-# 🎵 Music Player System
+A responsive and interactive web-based music player inspired by Spotify. This project replicates the look and feel of Spotify’s user interface and provides core features like playlist selection, dynamic playbar, volume control, and real-time playback updates using vanilla JavaScript.
 
-A sleek and responsive web-based music player built using **HTML**, **CSS**, and **JavaScript** — no frameworks, no libraries, just pure frontend magic.
+## Features
 
-This project mimics a Spotify-style interface with functional playlists, a playbar, responsive controls, and volume adjustment — all done from scratch.
-
----
-
-##  Features
-
--  Play music directly from the UI
--  Three categories: Library, Nasheeds, and Ringtones
--  Seekbar and volume control
--  Play, Pause, Next, Previous buttons
--  Playlist selection updates UI
--  Hover effects with SVG icons
--  Fully responsive from large screens to mobile
-
----
-
+- Playlist browsing (My Library, Nasheeds, Ringtones)
+- Play, pause, next, and previous song controls
+- Live time & duration updates
+- Interactive seek bar with drag support
+- Volume slider and mute toggle
+- Custom UI with SVG icons and responsive design
+- Mobile-friendly layout and hamburger sidebar toggle
 
 ##  File Structure
 
@@ -47,27 +39,36 @@ The project is organized in a clean modular way for better readability and maint
 
 ---
 
-##  Tech Stack
 
-* **HTML5**
-* **CSS3** (Flexbox, Media Queries, Custom Utility Classes)
-* **JavaScript** (Vanilla JS DOM Manipulation)
+## Tech Stack
 
----
+- HTML5 – Semantic layout structure
+- CSS3 – Custom styling and responsive media queries
+- JavaScript (Vanilla) – Playback logic, playlist rendering, and DOM interaction
+- Git & GitHub Pages – Version control and deployment
 
-##  Responsive Design Strategy
+## How to Run Locally
 
-* Below **700px**: Album pic + song details wrap
-* Below **500px**: Playbar components stack vertically:
+1. Clone the repository:
+   ```
+   git clone https://github.com/aaquib1303/Music-player-system.git
+   cd Music-player-system
+   ```
+   
+2. Start a local development server:
 
-  * Song image
-  * Song name and artist
-  * Controls (play/pause, next, previous)
-  * Seekbar
-  * Volume control
+    Using Python (for Python 3):
 
----
+    ```
+    python -m http.server
+    ```
+    Or use the Live Server extension in VS Code.
 
+    Open http://localhost:8000 in your browser (recommended for fetch-based playlist loading).
 
+## Notes
+For full functionality (like dynamic file fetching using fetch()), you must run the project on a local server. Directly opening index.html may not load playlists correctly.
+
+Ensure all file paths are relative and folder structure is preserved after cloning.
 
 
